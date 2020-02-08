@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="#D1FFA9">
+       <ProgressBar
+           android:layout_width="match_parent"
+           android:layout_height="10dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="5dp"
+           style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+           android:progress="10"
+           android:progressTint="#2E5314"
+           android:id="@+id/progress"
+           />
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:layout_marginBottom="5dp">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/noQuestion"
+             android:text="Intrebarea nr : "
+             android:textColor="#000"
+             android:textSize="12dp"
+             android:layout_alignParentLeft="true"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/score"
+             android:text="Scor : "
+             android:textColor="#000"
+             android:textSize="12dp"
+             android:layout_alignParentRight="true"/>
+   </RelativeLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:id="@+id/question"
+       android:text="In ce an an Sony a lansat PS4 ?"
+       android:textColor="#000"
+       android:layout_margin="10dp"
+       android:background="#4FA412"
+       android:textSize="20dp"
+       android:gravity="center"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:id="@+id/answer"
+       android:hint="Introduceti raspunsul"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:background="#FFFFFF"
+       android:text="Raspundeti"
+       android:id="@+id/submit"/>
+
+          </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:background="#B5F082"
+        android:text="Felicitari ! Quiz terminat !"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="All Rights Reserved"
+        android:gravity="bottom"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sper ca v-a placut ! "
+        android:gravity="right"/>
+
+</RelativeLayout>
